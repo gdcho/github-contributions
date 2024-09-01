@@ -95,7 +95,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen bg-gray-500 flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen bg-gray-500 flex-col items-center justify-between p-8">
       <ActivityCalendar
         data={mergedData}
         renderBlock={tippyBlock}
